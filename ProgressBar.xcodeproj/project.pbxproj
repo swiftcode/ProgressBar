@@ -15,6 +15,9 @@
 		E54D3B602B6353FE005C961D /* ProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3B5F2B6353FE005C961D /* ProgressBarTests.swift */; };
 		E54D3B6A2B6353FE005C961D /* ProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3B692B6353FE005C961D /* ProgressBarUITests.swift */; };
 		E54D3B6C2B6353FE005C961D /* ProgressBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3B6B2B6353FE005C961D /* ProgressBarUITestsLaunchTests.swift */; };
+		E54D3B7B2B635DBE005C961D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3B7A2B635DBE005C961D /* ProgressView.swift */; };
+		E54D3B7D2B635F41005C961D /* ProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3B7C2B635F41005C961D /* ProgressCell.swift */; };
+		E54D3B7F2B636742005C961D /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54D3B7E2B636742005C961D /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E54D3B652B6353FE005C961D /* ProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54D3B692B6353FE005C961D /* ProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarUITests.swift; sourceTree = "<group>"; };
 		E54D3B6B2B6353FE005C961D /* ProgressBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E54D3B7A2B635DBE005C961D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		E54D3B7C2B635F41005C961D /* ProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCell.swift; sourceTree = "<group>"; };
+		E54D3B7E2B636742005C961D /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				E54D3B482B6353FD005C961D /* AppDelegate.swift */,
 				E54D3B4A2B6353FD005C961D /* SceneDelegate.swift */,
 				E54D3B4C2B6353FD005C961D /* ViewController.swift */,
+				E54D3B7A2B635DBE005C961D /* ProgressView.swift */,
+				E54D3B7C2B635F41005C961D /* ProgressCell.swift */,
 				E54D3B512B6353FE005C961D /* Assets.xcassets */,
 				E54D3B532B6353FE005C961D /* LaunchScreen.storyboard */,
 				E54D3B562B6353FE005C961D /* Info.plist */,
+				E54D3B7E2B636742005C961D /* Screen.swift */,
 			);
 			path = ProgressBar;
 			sourceTree = "<group>";
@@ -255,8 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E54D3B4D2B6353FD005C961D /* ViewController.swift in Sources */,
+				E54D3B7D2B635F41005C961D /* ProgressCell.swift in Sources */,
+				E54D3B7B2B635DBE005C961D /* ProgressView.swift in Sources */,
 				E54D3B492B6353FD005C961D /* AppDelegate.swift in Sources */,
 				E54D3B4B2B6353FD005C961D /* SceneDelegate.swift in Sources */,
+				E54D3B7F2B636742005C961D /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
